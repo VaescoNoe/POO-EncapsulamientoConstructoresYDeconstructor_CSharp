@@ -14,16 +14,18 @@ namespace POO
 
         private double _alturaRectangulo;
         public double AlturaRectangulo
-        {
+                {
                 get { return _alturaRectangulo; }
                 set { _alturaRectangulo = value; }
-            }
+                }
+        
+        
         private string _color;
         public string Color
-            {
+                {
                 get { return _color; }
                 set { _color = value; }
-            }
+                }
 
         public Rectangulo()
         {
